@@ -18,6 +18,7 @@ gem 'appraisal'
 gem 'matrix'
 gem 'nokogiri'
 gem 'pg', platforms: [:mri, :mingw, :x64_mingw]
+gem 'psych', "5.1.0" # https://github.com/ruby/psych/issues/655
 gem 'rack', '~> 2.2'
 gem 'rails'
 
